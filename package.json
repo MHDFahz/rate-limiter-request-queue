@@ -1,0 +1,32 @@
+{
+  "name": "rate-limiter-request-queue",
+  "version": "1.0.1",
+  "description": " This function creates a queue for handling HTTP requests in a rate-limited manner. It accepts the maximum number of requests that can be made in a time interval and the time duration of the interval. Optionally, you can also specify if all requests should be evenly spaced out within the interval",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rate-limiter-request-queue",
+    "queue",
+    "limiter",
+    "rate-limiter",
+    "loop-time-limiter"
+  ],
+  "author": "fahis369 <fahis.skazi@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MHDFahz/rate-limiter-request-queue.git"
+  },
+  "homepage": "https://github.com/MHDFahz/rate-limiter-request-queue",
+  "bugs": {
+    "url": "https://github.com/MHDFahz/rate-limiter-request-queue/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/"
+  ],
+  "license": "MIT"
+}
